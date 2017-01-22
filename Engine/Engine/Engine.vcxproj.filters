@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{f59b4c40-362f-44b9-ba69-f339f623edb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Audio">
+      <UniqueIdentifier>{95211aa6-66d4-4698-8887-863f9f91bba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Physics">
+      <UniqueIdentifier>{7b444ed3-59ef-4fc9-97ec-cf3b1b5a2bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Headers">
+      <UniqueIdentifier>{eb322d7a-c69b-4f75-be1e-0f1993a84681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Cpps">
+      <UniqueIdentifier>{570b623c-6994-49c7-b94a-e8dfb67b025a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Graphics\Camera.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\DirectionalLight.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Light.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Material.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Mesh.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\MeshBatch.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Model.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\PointLight.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Renderer.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\RenderWindow.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ShaderFactory.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\SpotLight.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Texture.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Transformable.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\UniformBufferObject.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Vertex.h">
+      <Filter>Source\Graphics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graphics\Camera.h" />
+    <ClInclude Include="Include\Graphics\DirectionalLight.h" />
+    <ClInclude Include="Include\Graphics\Light.h" />
+    <ClInclude Include="Include\Graphics\Material.h" />
+    <ClInclude Include="Include\Graphics\Mesh.h" />
+    <ClInclude Include="Include\Graphics\MeshBatch.h" />
+    <ClInclude Include="Include\Graphics\Model.h" />
+    <ClInclude Include="Include\Graphics\PointLight.h" />
+    <ClInclude Include="Include\Graphics\Renderer.h" />
+    <ClInclude Include="Include\Graphics\RenderWindow.h" />
+    <ClInclude Include="Include\Graphics\Shader.h" />
+    <ClInclude Include="Include\Graphics\SpotLight.h" />
+    <ClInclude Include="Include\Graphics\Texture.h" />
+    <ClInclude Include="Include\Graphics\UniformBufferObject.h" />
+    <ClInclude Include="Include\Graphics\Vertex.h" />
+    <ClInclude Include="Include\EnginePCH.h" />
+    <ClInclude Include="Include\Graphics\ModelData.h" />
+    <ClInclude Include="TestGame.h" />
+    <ClInclude Include="Include\Utils\CfgParser.h" />
+    <ClInclude Include="Include\Common\Asset.h" />
+    <ClInclude Include="Include\Common\AssetLoader.h" />
+    <ClInclude Include="Include\Common\Config.h" />
+    <ClInclude Include="Include\Common\Game.h" />
+    <ClInclude Include="Include\Common\Input.h" />
+    <ClInclude Include="Include\Common\InputEnums.h" />
+    <ClInclude Include="Include\Common\World.h" />
+    <ClInclude Include="Include\Common\Component.h" />
+    <ClInclude Include="Include\Common\Entity.h" />
+    <ClInclude Include="Include\Common\TestCom.h" />
+    <ClInclude Include="Include\Common\Transformable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Graphics\Renderer.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\RenderWindow.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\SpotLight.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Texture.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Transformable.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\UniformBufferObject.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Vertex.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Camera.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\DirectionalLight.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Light.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Material.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Mesh.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\MeshBatch.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Model.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\PointLight.cpp">
+      <Filter>Source\Graphics\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ModelData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGame.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\CfgParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Asset.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\AssetLoader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Config.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Input.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\World.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Component.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\TestCom.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Entity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
